@@ -10,7 +10,7 @@
 
 ---
 
-## `// FEATURES`
+## // FEATURES
 
 | Element | Color | Effect |
 |:--------|:------|:-------|
@@ -26,7 +26,7 @@
 
 ---
 
-## `// FONT STACK`
+## // FONT STACK
 
 ```
 Intel One Mono → Fira Code → JetBrains Mono → monospace
@@ -34,7 +34,7 @@ Intel One Mono → Fira Code → JetBrains Mono → monospace
 
 ---
 
-## `// INSTALL`
+## // INSTALL
 
 ### From Obsidian
 
@@ -52,7 +52,7 @@ mkdir "Neon Dracula"
 
 ---
 
-## `// PALETTE`
+## // PALETTE
 
 ```
 ┌─────────────────────────────────────────┐
@@ -69,13 +69,13 @@ mkdir "Neon Dracula"
 
 ---
 
-## `// CREDITS`
+## // CREDITS
 
 Based on [Dracula for Obsidian](https://github.com/dracula/obsidian) by [Chrismettal](https://gitlab.com/chrismettal) & [Andy Byers](https://github.com/andybyers21).
 
 ---
 
-## `// LICENSE`
+## // LICENSE
 
 [MIT](./LICENSE)
 
