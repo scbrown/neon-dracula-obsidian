@@ -1,30 +1,45 @@
-# Dracula for [Obsidian](http://obsidian.md)
+# Neon Dracula for [Obsidian](http://obsidian.md)
 
-> A dark theme for [Obsidian](http://obsidian.md).
+> A cyberpunk neon theme for [Obsidian](http://obsidian.md), based on Dracula.
 
-![Screenshot](./screenshot_1080p.png)
+![Screenshot](./screenshot.png)
+
+## Features
+
+- **Neon glow effects** on headers, links, code, tables, and horizontal rules
+- **Headers**: Golden orange (#ffcc66) with neon glow and black text outline for readability
+- **Inline code**: Neon green (#50fa7b) with glow
+- **Tables**: Purple borders (#bd93f9) with neon glow, alternating row colors
+- **Code blocks**: Purple borders with neon glow in reading mode
+- **Horizontal rules**: Purple with neon glow
+- **Comments in code**: Cyan (#8be9fd) italic with subtle glow
+- **Tags, italics, list bullets**: Neon green
+- **Links, bold**: Orange with glow
+- **Blockquotes**: Green left border with glow
+
+## Font
+
+Uses Intel One Mono as primary font with Fira Code and JetBrains Mono as fallbacks.
 
 ## Install
 
-All instructions can be found at [draculatheme.com/obsidian](https://draculatheme.com/obsidian).
+### From Obsidian
 
-## Team
+1. Open Settings > Appearance
+2. Click "Manage" next to Themes
+3. Search for "Neon Dracula"
+4. Click Install and then Use
 
-This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/obsidian/graphs/contributors).
+### Manual Installation
 
-| [![Chrismettal](https://github.com/chrismettal.png?size=100)](https://gitlab.com/chrismettal) | [![Andy Byers](https://avatars0.githubusercontent.com/u/66736432?v=3&s=100)](https://github.com/andybyers21) |
-| ----------------------------------------------------------------------------------------------| ------------------------------------------------------------------------------------------------------------ |
-| [Chrismettal](https://gitlab.com/chrismettal)                                                 | [Andy Byers](https://github.com/andybyers21)                                                                 |
+1. Download `theme.css` and `manifest.json` from this repo
+2. Create a folder called `Neon Dracula` in your vault's `.obsidian/themes/` directory
+3. Copy `theme.css` and `manifest.json` into that folder
+4. Open Obsidian Settings > Appearance and select "Neon Dracula"
 
-## Contributing
+## Credits
 
-If you'd like to contribute to this theme, please read the [contributing guidelines](./.github/CONTRIBUTING.md).
-
-## Community
-
-- [Twitter](https://twitter.com/draculatheme) - Best for getting updates about themes and new stuff.
-- [GitHub](https://github.com/dracula/dracula-theme/discussions) - Best for asking questions and discussing issues.
-- [Discord](https://draculatheme.com/discord-invite) - Best for hanging out with the community.
+Based on [Dracula for Obsidian](https://github.com/dracula/obsidian) by [Chrismettal](https://gitlab.com/chrismettal) and [Andy Byers](https://github.com/andybyers21).
 
 ## License
 
