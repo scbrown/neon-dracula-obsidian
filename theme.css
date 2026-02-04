@@ -3,6 +3,11 @@
 
   /* Obsidian "Dark" import so light mode looks the same*/
   --color-scheme: dark;
+
+  /* Neon Dracula font configuration */
+  --font-text: 'Intel One Mono', 'Fira Code', 'JetBrains Mono', monospace;
+  --font-monospace: 'Intel One Mono', 'Fira Code', 'JetBrains Mono', monospace;
+  --font-interface: 'Intel One Mono', 'Fira Code', 'JetBrains Mono', monospace;
   --highlight-mix-blend-mode: lighten;
   --mono-rgb-0: 0, 0, 0;
   --mono-rgb-100: 255, 255, 255;
@@ -849,7 +854,7 @@ ol {
   background-color: var(--blockquote-border)!important;
 }
 
-@media print { 
+@media print {
   @page {
     margin: 0mm 0mm 0mm 0mm;
   }
@@ -861,4 +866,309 @@ ol {
   .markdown-rendered code {
       color: #BABABA !important;
   }
+}
+
+
+/* ================================================
+   NEON DRACULA - Cyberpunk Neon Effects
+   ================================================ */
+
+/* ============ NEON ORANGE (medium glow) ============ */
+
+/* Links */
+.cm-s-obsidian span.cm-link,
+.cm-s-obsidian span.cm-hmd-internal-link,
+.markdown-preview-view .internal-link,
+a.internal-link,
+.cm-formatting-link,
+.cm-url,
+a:not(.tag) {
+  color: #ffa54f !important;
+  text-shadow: 0 0 6px #ffa54f, 0 0 10px #ffa54f77;
+}
+
+/* Headers */
+.cm-header,
+.HyperMD-header,
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6,
+h1, h2, h3, h4, h5, h6 {
+  color: #ffcc66 !important;
+  text-shadow:
+    0 0 10px #ffaa00,
+    0 0 20px #ffaa0088,
+    1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000;
+}
+
+/* Bold text */
+strong, b, .cm-strong {
+  color: #ffa54f !important;
+  text-shadow: 0 0 5px #ffa54f, 0 0 8px #ffa54f55;
+}
+
+/* Table headers */
+.markdown-preview-view th,
+th {
+  color: #ffa54f !important;
+  text-shadow: 0 0 5px #ffa54f, 0 0 8px #ffa54f55;
+}
+
+/* Highlighted/marked text */
+mark, .cm-highlight {
+  background-color: #ffa54f44 !important;
+  box-shadow: 0 0 6px #ffa54f66;
+}
+
+
+/* ============ NEON GREEN (pop!) ============ */
+
+/* Inline code - changed to green */
+code:not(pre code),
+.cm-inline-code,
+.markdown-preview-view code:not(pre code),
+.markdown-source-view.mod-cm6 .cm-inline-code,
+span.cm-inline-code {
+  color: #50fa7b !important;
+  text-shadow: 0 0 8px #50fa7b, 0 0 15px #50fa7b88;
+  background-color: #44475a !important;
+}
+
+/* Strings and green syntax elements */
+.token.string,
+.cm-string,
+.cm-s-obsidian span.cm-string {
+  color: #50fa7b !important;
+  text-shadow: 0 0 8px #50fa7b, 0 0 15px #50fa7b88;
+}
+
+/* Checkboxes / completed tasks */
+.task-list-item-checkbox:checked + *,
+.cm-formatting-task + .cm-list-1.cm-task-checked {
+  color: #50fa7b !important;
+  text-shadow: 0 0 8px #50fa7b;
+}
+
+/* Tags */
+.tag,
+a.tag,
+.cm-hashtag,
+.cm-s-obsidian span.cm-hashtag {
+  color: #50fa7b !important;
+  text-shadow: 0 0 8px #50fa7b, 0 0 12px #50fa7b88;
+}
+
+/* Italic text */
+em, i, .cm-em {
+  color: #50fa7b !important;
+  text-shadow: 0 0 8px #50fa7b;
+}
+
+/* Lists bullets/numbers */
+.list-bullet,
+.cm-formatting-list {
+  color: #50fa7b !important;
+  text-shadow: 0 0 6px #50fa7b;
+}
+
+/* Block quotes border */
+blockquote,
+.markdown-preview-view blockquote {
+  border-left-color: #50fa7b !important;
+  box-shadow: -2px 0 8px #50fa7b66;
+}
+
+/* File explorer - active file */
+.nav-file-title.is-active {
+  color: #50fa7b !important;
+  text-shadow: 0 0 8px #50fa7b;
+}
+
+/* Code block syntax - variables, properties */
+.token.function,
+.token.class-name,
+.cm-variable,
+.cm-property {
+  color: #50fa7b !important;
+  text-shadow: 0 0 6px #50fa7b;
+}
+
+
+/* ============ TABLES (neon glow style) ============ */
+
+/* Table container */
+table,
+.markdown-preview-view table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 2px solid #bd93f9;
+  border-radius: 8px;
+  /* Neon glow */
+  box-shadow:
+    0 0 10px #bd93f966,
+    0 0 20px #bd93f944,
+    0 0 30px #bd93f922;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+/* Table cells */
+td, th,
+.markdown-preview-view td,
+.markdown-preview-view th {
+  border: 1px solid #6272a4;
+  padding: 10px 14px;
+}
+
+/* Table header row */
+thead tr,
+.markdown-preview-view thead tr {
+  background: linear-gradient(180deg, #44475a 0%, #363949 100%);
+}
+
+/* Header cells */
+th,
+.markdown-preview-view th {
+  border-bottom: 2px solid #ff79c6 !important;
+  text-shadow: 0 0 8px #ffa54f;
+}
+
+/* Alternating row colors */
+tbody tr:nth-child(odd),
+.markdown-preview-view tbody tr:nth-child(odd) {
+  background-color: #282a36;
+}
+
+tbody tr:nth-child(even),
+.markdown-preview-view tbody tr:nth-child(even) {
+  background-color: #21222c;
+}
+
+/* Row hover */
+tbody tr:hover,
+.markdown-preview-view tbody tr:hover {
+  background-color: #44475a;
+  box-shadow: inset 0 0 15px #bd93f944;
+}
+
+
+/* ============ HORIZONTAL RULES (neon glow) ============ */
+
+hr,
+.markdown-preview-view hr,
+.markdown-rendered hr {
+  border: none;
+  height: 2px;
+  background: #bd93f9;
+  border-radius: 1px;
+  margin: 24px 0;
+  box-shadow:
+    0 0 10px #bd93f9,
+    0 0 20px #bd93f988,
+    0 0 30px #bd93f944;
+}
+
+
+/* ============ CODE BLOCKS (fenced) ============ */
+
+/* Kill all line-level styling */
+.HyperMD-codeblock,
+.HyperMD-codeblock-bg,
+.HyperMD-codeblock-begin,
+.HyperMD-codeblock-end,
+.cm-line.HyperMD-codeblock {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Reset code inside pre */
+pre code,
+.markdown-preview-view pre code,
+.markdown-rendered pre code {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  text-shadow: none !important;
+  color: #f8f8f2 !important;
+}
+
+/* ===== CODE BLOCKS - Reading Mode ===== */
+.markdown-rendered pre {
+  background: #282a36 !important;
+  border: 2px solid #bd93f9 !important;
+  border-radius: 8px !important;
+  padding: 16px !important;
+  margin: 16px 0 !important;
+  box-shadow:
+    0 0 15px #bd93f9,
+    0 0 30px #bd93f988,
+    0 0 45px #bd93f944 !important;
+}
+
+
+/* ===== CODE BLOCKS - Live Preview Mode ===== */
+/* Top of code block */
+.cm-s-obsidian div.HyperMD-codeblock-begin-bg {
+  background: #282a36 !important;
+  border-top: 2px solid #bd93f9 !important;
+  border-left: 2px solid #bd93f9 !important;
+  border-right: 2px solid #bd93f9 !important;
+  border-top-left-radius: 8px !important;
+  border-top-right-radius: 8px !important;
+  margin-top: 16px !important;
+  box-shadow: none !important;
+}
+
+/* Middle of code block */
+.cm-s-obsidian div.HyperMD-codeblock-bg:not(.HyperMD-codeblock-begin-bg):not(.HyperMD-codeblock-end-bg) {
+  background: #282a36 !important;
+  border-left: 2px solid #bd93f9 !important;
+  border-right: 2px solid #bd93f9 !important;
+  box-shadow: none !important;
+}
+
+/* Bottom of code block */
+.cm-s-obsidian div.HyperMD-codeblock-end-bg {
+  background: #282a36 !important;
+  border-bottom: 2px solid #bd93f9 !important;
+  border-left: 2px solid #bd93f9 !important;
+  border-right: 2px solid #bd93f9 !important;
+  border-top: none !important;
+  border-bottom-left-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+  margin-bottom: 16px !important;
+  box-shadow: none !important;
+}
+
+
+/* Comments in code blocks - brighter for readability */
+.cm-s-obsidian .HyperMD-codeblock .cm-comment,
+.cm-s-obsidian .cm-comment {
+  color: #8be9fd !important;
+  text-shadow: 0 0 6px #8be9fd88 !important;
+  font-style: italic;
+}
+
+
+
+/* Copy button */
+.copy-code-button {
+  background: #44475a !important;
+  border: 1px solid #6272a4 !important;
+  border-radius: 4px !important;
+  box-shadow: none !important;
+}
+
+.copy-code-button:hover {
+  background: #6272a4 !important;
+  border-color: #50fa7b !important;
+  box-shadow: 0 0 8px #50fa7b66 !important;
 }
