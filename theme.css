@@ -1062,16 +1062,20 @@ tbody tr:hover,
 
 hr,
 .markdown-preview-view hr,
-.markdown-rendered hr {
-  border: none;
-  height: 2px;
-  background: #bd93f9;
-  border-radius: 1px;
-  margin: 24px 0;
+.markdown-rendered hr,
+.cm-line hr {
+  border: none !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  height: 3px !important;
+  background: #bd93f9 !important;
+  background-color: #bd93f9 !important;
+  border-radius: 2px !important;
+  margin: 24px 0 !important;
   box-shadow:
     0 0 10px #bd93f9,
     0 0 20px #bd93f988,
-    0 0 30px #bd93f944;
+    0 0 30px #bd93f944 !important;
 }
 
 
