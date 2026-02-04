@@ -10,7 +10,7 @@
 
 ---
 
-## // FEATURES
+## Features
 
 | Element | Color | Effect |
 |:--------|:------|:-------|
@@ -26,7 +26,7 @@
 
 ---
 
-## // FONT STACK
+## Font Stack
 
 ```
 Intel One Mono → Fira Code → JetBrains Mono → monospace
@@ -34,7 +34,7 @@ Intel One Mono → Fira Code → JetBrains Mono → monospace
 
 ---
 
-## // INSTALL
+## Install
 
 ### From Obsidian
 
@@ -52,35 +52,27 @@ mkdir "Neon Dracula"
 
 ---
 
-## // PALETTE
+## Palette
 
-```
-┌─────────────────────────────────────────┐
-│  #282a36  Background                    │
-│  #44475a  Current Line                  │
-│  #ffcc66  Headers (Golden)              │
-│  #ffa54f  Links & Bold (Orange)         │
-│  #50fa7b  Code & Tags (Green)           │
-│  #bd93f9  Borders & Rules (Purple)      │
-│  #8be9fd  Comments (Cyan)               │
-│  #ff79c6  Accents (Pink)                │
-└─────────────────────────────────────────┘
-```
+| Color | Hex | Usage |
+|:------|:----|:------|
+| ![#282a36](https://img.shields.io/badge/-%23282a36-282a36?style=flat-square) | `#282a36` | Background |
+| ![#44475a](https://img.shields.io/badge/-%2344475a-44475a?style=flat-square) | `#44475a` | Current Line |
+| ![#ffcc66](https://img.shields.io/badge/-%23ffcc66-ffcc66?style=flat-square) | `#ffcc66` | Headers |
+| ![#ffa54f](https://img.shields.io/badge/-%23ffa54f-ffa54f?style=flat-square) | `#ffa54f` | Links & Bold |
+| ![#50fa7b](https://img.shields.io/badge/-%2350fa7b-50fa7b?style=flat-square) | `#50fa7b` | Code & Tags |
+| ![#bd93f9](https://img.shields.io/badge/-%23bd93f9-bd93f9?style=flat-square) | `#bd93f9` | Borders & Rules |
+| ![#8be9fd](https://img.shields.io/badge/-%238be9fd-8be9fd?style=flat-square) | `#8be9fd` | Comments |
+| ![#ff79c6](https://img.shields.io/badge/-%23ff79c6-ff79c6?style=flat-square) | `#ff79c6` | Accents |
 
 ---
 
-## // CREDITS
+## Credits
 
 Based on [Dracula for Obsidian](https://github.com/dracula/obsidian) by [Chrismettal](https://gitlab.com/chrismettal) & [Andy Byers](https://github.com/andybyers21).
 
 ---
 
-## // LICENSE
+## License
 
 [MIT](./LICENSE)
-
----
-
-<p align="center">
-  <img src="https://img.shields.io/badge/GLOW-ON-50fa7b?style=for-the-badge" alt="Glow On">
-</p>
